@@ -8,3 +8,9 @@
 6.node dir			:列出当前目录下文件
 7.node mkdir dirname		:创建目录
 8.node rmdir dirname		:删除一个目录
+9.node copy src dst		:复制一个文件
+
+模拟文件操作
+1.readfile			:读取文件
+2.writefile			:写入文件
+3.appendfile			:追加文件
