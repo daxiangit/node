@@ -11,16 +11,18 @@ function writefile(filename,data,callback){
 			if(err){
 				return console.error(err);
 			}
-			
+			console.log("开始调试");
+			console.log(typeof written);
+			console.log(buffer);
 			fs.close(fd,function(err){
 				if(err){
 					return console.error(err);
 				}
+				callback(err);
 				
 			});
 		});
 	});
-	callback(err);
 }
 
 exports.writefile = writefile;
