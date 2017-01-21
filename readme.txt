@@ -1,16 +1,17 @@
-Õë¶Ô node.js ÎÄ¼şÏµÍ³µÄÁ·Ï°£¬ÊµÏÖ³£ÓÃÃüÁî
+é’ˆå¯¹ node.js æ–‡ä»¶ç³»ç»Ÿçš„ç»ƒä¹ ï¼Œå®ç°å¸¸ç”¨å‘½ä»¤
 
-1.node addfile filename		:´´½¨ÎÄ¼ş
-2.node delfile filename		:É¾³ıÎÄ¼ş
-3.node rename oldname newname	:ÖØÃüÃû
-4.node cat filename		:²é¿´ÎÄ¼ş
-5.node echo filename data	:Ğ´ÈëÎÄ¼ş
-6.node dir			:ÁĞ³öµ±Ç°Ä¿Â¼ÏÂÎÄ¼ş
-7.node mkdir dirname		:´´½¨Ä¿Â¼
-8.node rmdir dirname		:É¾³ıÒ»¸öÄ¿Â¼
-9.node copy src dst		:¸´ÖÆÒ»¸öÎÄ¼ş
+1.node addfile filename		:åˆ›å»ºæ–‡ä»¶
+2.node delfile filename		:åˆ é™¤æ–‡ä»¶
+3.node rename oldname newname	:é‡å‘½å
+4.node cat filename		:æŸ¥çœ‹æ–‡ä»¶
+5.node echo filename data	:å†™å…¥æ–‡ä»¶
+6.node dir			:åˆ—å‡ºå½“å‰ç›®å½•ä¸‹æ–‡ä»¶
+7.node mkdir dirname		:åˆ›å»ºç›®å½•
+8.node rmdir dirname		:åˆ é™¤ä¸€ä¸ªç›®å½•
+9.node copy src dst		:å¤åˆ¶ä¸€ä¸ªæ–‡ä»¶
 
-Ä£ÄâÎÄ¼ş²Ù×÷
-1.readfile			:¶ÁÈ¡ÎÄ¼ş
-2.writefile			:Ğ´ÈëÎÄ¼ş
-3.appendfile			:×·¼ÓÎÄ¼ş
+æ¨¡æ‹Ÿæ–‡ä»¶æ“ä½œ
+
+1.readfile			:è¯»å–æ–‡ä»¶
+2.writefile			:å†™å…¥æ–‡ä»¶
+3.appendfile			:è¿½åŠ æ–‡ä»¶
