@@ -31,6 +31,40 @@ var mfsSync = require("./mfsSync");
 
 //mfsSync.appendFileSync("test1.txt","www.example.com");
 
+//var mevent = require("./mevent");
+//var mev = new mevent.eventEmitter();
+//
+//mev.on("some",function(){
+//	console.log("触发事件");
+//});
+//setTimeout("mev.emit('some')",2000);
+
+var Stream = require("./writeStream");
+var write = new Stream.writeStream("test1.txt");
+write.write("writeStream ");
+write.on("finish",function(){
+	console.log("写入完毕");
+});
+
+write.on("error",function(err){
+	console.log("flag: "+err);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

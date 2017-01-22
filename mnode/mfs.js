@@ -44,14 +44,17 @@ function readFile(filename,callback){
 }
 
 function writeFile(filename,data,callback){
+	console.log("开始打开文件")
 	fs.open(filename,"w",function(err,fd){
 		if(err){
 			return callback(err);
 		}
+		console.log("开始写入文件");
 		fs.write(fd,data,0,data.length,0,function(err,written,buffer){
 			if(err){
 				return callback(err);
 			}
+			console.log("开始关闭文件");
 			fs.close(fd,function(err){
 				callback(err);
 			});
